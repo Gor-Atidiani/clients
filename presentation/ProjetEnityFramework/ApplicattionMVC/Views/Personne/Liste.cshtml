@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Liste";
+}
+
+
+@using GridMvc.Html
+@model IEnumerable<DAL.Personne>
+
+<h2>Liste</h2>
+
+@section Scripts{
+    <script>
+        // creer l' evenenement de suppression d'une personne
+        //on utilise Jquery
+        $(document).ready(function () {
+            $('.btn-sup').click(function (event) {
+                //element du DOM clicke
+                var butonClique = $(event.target).closest('button');
+                // on recupere l'id a supprimer
+                var idASupprimer = $(butonClique).attr('data-id');
+               
+
+                
+
+                // ajoutons le code js qui va declencher notre ajax
+                //cote client
+                $.ajax({
+                    url: '@Url.Action("Delete")',
+                    type: 'POST',
+                    data: { id: idASupprimer },
+                    success: function (data) {
+                        if (data.Suppression=="OK") {
+                            $(butonClique).closest("tr").fadeOut(400, function(){
+                                $(this).remove();
+                            })
+                        }
+                    }
+                })
+            });
+        });
+
+    </script>
+}
+
+
+@Html.Grid(Model).Columns(columns =>
+{
+    columns.Add(p => p.Nom).Filterable(true);
+
+    columns.Add(p => p.Email).Filterable(true);
+    columns.Add(p => p.Age).Sortable(true);
+
+    //creer le code qui me permet d'utili ma page edit
+    columns.Add()
+    .Sanitized(false)
+    .Encoded(false)
+    .RenderValueAs(p => Html.ActionLink("Editer", "Edit", new { id = p.Id }));
+
+    // ajouter une fonctionnqlite de suppression AJAX
+    columns.Add()
+    .Sanitized(false)
+    .Encoded(false)
+    .RenderValueAs(p => "<button class ='btn btn-default btn-sup' data-id = '"+p.Id+"'> <span class ='glyphicon glyphicon-remove-circle'/> </button>");
+
+}).WithPaging(15) 

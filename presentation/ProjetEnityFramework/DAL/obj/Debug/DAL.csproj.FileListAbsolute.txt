@@ -1,0 +1,14 @@
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\obj\Debug\DAL.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\obj\Debug\DAL.pdb
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\DAL\bin\Debug\fr\EntityFramework.SqlServer.resources.dll

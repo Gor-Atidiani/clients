@@ -1,0 +1,6 @@
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\BDD\bin\Debug\BDD.dacpac
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\BDD\bin\Debug\BDD.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\BDD\bin\Debug\BDD.pdb
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\BDD\obj\Debug\BDD.sqlproj.AssemblyReference.cache
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\BDD\obj\Debug\BDD.dll
+C:\Users\1\Desktop\progcsharp\ProjetEnityFramework\BDD\obj\Debug\BDD.pdb

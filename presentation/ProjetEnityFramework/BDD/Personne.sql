@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Personne]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Nom] VARCHAR (100) NOT NULL,
+	[Email] VARCHAR (100) NOT NULL,
+	[Age] INT NOT NULL  
+)
